@@ -1,5 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
+
 
 namespace Service.WalletApi.PingApi.Tests
 {
@@ -14,7 +16,7 @@ namespace Service.WalletApi.PingApi.Tests
         public void Test1()
         {
             Console.WriteLine("Debug output");
-            Assert.Pass();
+            ClassicAssert.Pass();
         }
     }
 }
